@@ -126,7 +126,8 @@
 }
 
 .Header__DescBigQuoteMark {
-  font-size: 1.5em;
+  font-family: 'FangSong';
+  font-size: 1.2em;
   line-height: 0;
 }
 
@@ -216,9 +217,9 @@
   margin: 0;
   padding-bottom: 1rem;
   line-height: 1.8;
-  font-size: 0.9rem;
-  font-weight: 500;
-  letter-spacing: -0.01em;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 .Article__Title > a {
@@ -231,6 +232,8 @@
 }
 
 .Article__Desc {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro';
   padding-bottom: 1rem;
 }
 
