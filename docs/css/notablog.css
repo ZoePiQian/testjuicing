@@ -3,7 +3,7 @@
 .Navbar {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   position: fixed;
   top: 0;
   left: 0;
@@ -218,7 +218,7 @@
   padding-bottom: 1.5rem;
   line-height: 1.8;
   font-size: 1.2rem;
-  font-weight: NORMAL;
+  font-weight: BOLD;
   letter-spacing: -0.01em;
 }
 
