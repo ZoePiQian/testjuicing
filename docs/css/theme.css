@@ -56,10 +56,8 @@
 body {
   color: var(--color-text-default);
   fill: currentColor;
-  font-family: 'Source Sans Pro', -apple-system, 'BlinkMacSystemFont',
-    'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  margin: 5px;
+  font-family: 'Source Sans Pro';
+  margin: 10px;
 }
 
 code {
@@ -772,6 +770,7 @@ pre.Code code {
 
 .Page__Title .SemanticStringArray {
   border-bottom: 1px solid rgba(55, 53, 47, 0.16);
+  font-family: 'Source Sans Pro';
 }
 
 /* PDF */
@@ -788,6 +787,7 @@ pre.Code code {
   padding: 6px 2px;
   color: var(--color-text-default-light);
   font-size: 0.875em;
+  background: var(--color-ui-hover-bg);
 }
 
 /* Pill */

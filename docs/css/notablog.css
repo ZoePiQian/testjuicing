@@ -3,7 +3,7 @@
 .Navbar {
   display: flex;
   align-items: center;
-  font-size: 17px;
+  font-size: 19px;
   position: fixed;
   top: 0;
   left: 0;
@@ -217,9 +217,9 @@
   margin: 0;
   padding-bottom: 1rem;
   line-height: 1.8;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
 
 .Article__Title > a {
@@ -232,9 +232,9 @@
 }
 
 .Article__Desc {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-family: 'Source Sans Pro';
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
 }
 
 /* PageRoot (content body) */
