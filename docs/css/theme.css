@@ -850,8 +850,8 @@ pre.Code code {
   border-left: 5px solid currentcolor;
   border-radius: 5px;
   margin: 0.5rem 0;
-  padding: 0.5em 0.9em;
-  font-size: 1.2em;
+  padding: 0.5em 1em;
+  font-size: 0.9em;
 }
 
 /* SemanticStringArray */
@@ -1028,8 +1028,8 @@ pre.Code code {
 }
 
 .Text__Content {
-  padding: 3px 2px;
-  margin: 2px 0;
+  padding: 3px 10px;
+  margin: 3px 0;
 }
 
 .Text__Children {
