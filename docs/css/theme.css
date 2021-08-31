@@ -60,6 +60,7 @@ body {
     'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   margin: 0;
+  padding-bottom: 15px;
 }
 
 code {
@@ -162,8 +163,8 @@ p {
 }
 
 .Callout__Icon {
-  width: 1.5em;
-  line-height: 1.5em;
+  width: 1.8em;
+  line-height: 1.8em;
 }
 
 .Callout__Content {
