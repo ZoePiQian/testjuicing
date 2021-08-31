@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   font-size: 19px;
+  font-style: bold;
   position: fixed;
   top: 0;
   left: 0;
@@ -217,9 +218,9 @@
   margin: 0;
   padding-bottom: 1rem;
   line-height: 1.8;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
 }
 
 .Article__Title > a {
@@ -232,9 +233,9 @@
 }
 
 .Article__Desc {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-family: 'Source Sans Pro';
-  padding-bottom: 0.75rem;
+  padding-bottom: 0.65rem;
 }
 
 /* PageRoot (content body) */
