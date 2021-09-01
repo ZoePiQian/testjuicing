@@ -144,7 +144,7 @@
   margin-right: 10px;
   margin-bottom: 0.5rem;
   padding: 2px 6px;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 0.25rem;
 }
 
@@ -156,8 +156,9 @@
 
 .DateTagBar__Tag {
   color: hsla(45, 8%, 25%, 1);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-style: bold;
+  font-weight: 600;
   white-space: nowrap;
 }
 
@@ -237,6 +238,7 @@
 .Article__Desc {
   font-size: 0.96rem;
   font-family: 'Source Sans Pro';
+  line-height: 1rem;
   padding-bottom: 1rem;
 }
 
