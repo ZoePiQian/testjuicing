@@ -127,7 +127,7 @@
 }
 
 .Header__DescBigQuoteMark {
-  font-family:"Times New Roman";
+  font-family:"Source Sans Pro";
   font-size: 1.2em;
   line-height: 0;
 }
@@ -226,7 +226,7 @@
 
 .Article__Title > a {
   margin-left: 5px;
-  border-bottom: 5px solid hsl(45, 8%, 85%);
+  border-bottom: 3px solid hsl(45, 8%, 85%);
 }
 
 .Article__Title > a:hover {
@@ -234,9 +234,9 @@
 }
 
 .Article__Desc {
-  font-size: 0.97rem;
+  font-size: 0.96rem;
   font-family: 'Source Sans Pro';
-  padding-bottom: 0.65rem;
+  padding-bottom: 0.35rem;
 }
 
 /* PageRoot (content body) */
