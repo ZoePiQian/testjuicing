@@ -58,8 +58,8 @@ body {
   fill: currentColor;
   font-family: 'Source Sans Pro';
   margin: 0;
-  line-height: 0.85rem;
-  padding-bottom: 1rem
+  line-height: 1.3rem;
+  padding-bottom: 0.25rem
 }
 
 code {

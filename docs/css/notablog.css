@@ -157,6 +157,7 @@
 .DateTagBar__Tag {
   color: hsla(45, 8%, 25%, 1);
   font-size: 0.85rem;
+  font-style: bold;
   white-space: nowrap;
 }
 
