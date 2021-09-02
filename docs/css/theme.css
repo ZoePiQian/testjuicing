@@ -59,7 +59,7 @@ body {
   font-family: 'Source Sans Pro';
   margin: 0;
   line-height: 1.5rem;
-  padding-bottom: 10rem;
+  padding-bottom: 50px;
 }
 
 code {
@@ -70,7 +70,7 @@ code {
 
 p {
   margin-bottom: 1rem;
-  padding-bottom: 10rem;
+  padding-bottom: 50px;
 }
 
 /* Anchor */
