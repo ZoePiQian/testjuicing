@@ -70,7 +70,6 @@ code {
 
 p {
  margin: 0; 
- padding-bottom: 22px;
 }
 
 /* Anchor */
@@ -1030,7 +1029,7 @@ pre.Code code {
 }
 
 .Text__Content {
-  padding-bottom: 17px;
+  padding-bottom: 1.1em;
   letter-spacing: 0.02em;
   word-spacing: 0;
   line-height: 1.6em;
