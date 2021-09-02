@@ -1033,9 +1033,10 @@ pre.Code code {
   padding-bottom: 17px;
   letter-spacing: 0.05em;
   line-height: 1.6em;
-  margin: 2px 0;
+  margin: 3px 0;
   text-align: justify;
-  font-family:'Hiragino Sans GB','Source Sans Pro','MicroSoft YaHei';
+  font-family: 'Source Sans Pro';
+  font-size: 400;
 }
 
 .Text__Children {

@@ -135,7 +135,7 @@
 /* DateTagBar */
 
 .DateTagBar {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -157,7 +157,7 @@
 
 .DateTagBar__Tag {
   color: hsla(45, 8%, 25%, 1);
-  font-size: 0.89rem;
+  font-size: 0.79rem;
   font-style: bold;
   font-weight: 600;
   white-space: nowrap;
@@ -223,7 +223,7 @@
   padding-bottom: 1rem;
   line-height: 1.8;
   font-size: 1.52rem;
-  font-family:'Hiragino Sans GB','Source Sans Pro','MicroSoft YaHei';
+  font-family:'Hiragino Sans GB','Source Sans Pro';
   font-weight: 600;
   letter-spacing: 0.05em;
 }
@@ -239,9 +239,9 @@
 
 .Article__Desc {
   font-size: 0.9rem;
-  font-family:'Hiragino Sans GB','Source Sans Pro','MicroSoft YaHei';
-  line-height: 1rem;
-  padding-bottom: 14px;
+  font-family:'Source Sans Pro';
+  line-height: 1.2;
+  padding-bottom: 18px;
 }
 
 /* PageRoot (content body) */
