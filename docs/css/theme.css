@@ -58,7 +58,6 @@ body {
   fill: currentColor;
   font-family: 'Source Sans Pro';
   margin: 0;
-  padding-bottom: 50px;
   line-height: 1.5rem;
 }
 
@@ -69,7 +68,9 @@ code {
 }
 
 p {
-margin: 0;
+margin: 0;  
+padding-bottom: 30px;
+
 }
 
 /* Anchor */
