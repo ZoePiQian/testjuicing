@@ -1031,7 +1031,8 @@ pre.Code code {
 
 .Text__Content {
   padding-bottom: 17px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  word-spacing: 0;
   line-height: 1.6em;
   margin: 3px 0;
   text-align: justify;
