@@ -748,6 +748,8 @@ pre.Code code {
 .Page {
   color: inherit;
   text-decoration: none;
+  padding: 20px 0;
+
 }
 
 .Page > div {
