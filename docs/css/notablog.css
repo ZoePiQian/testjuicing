@@ -222,9 +222,10 @@
   margin: 0;
   padding-bottom: 1rem;
   line-height: 1.8;
-  font-size: 1.5rem;
+  font-size: 1.52rem;
+  font-family:'Hiragino Sans GB','Source Sans Pro','MicroSoft YaHei';
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
 }
 
 .Article__Title > a {
@@ -237,10 +238,10 @@
 }
 
 .Article__Desc {
-  font-size: 0.92rem;
-  font-family: 'Source Sans Pro';
+  font-size: 0.9rem;
+  font-family:'Hiragino Sans GB','Source Sans Pro','MicroSoft YaHei';
   line-height: 1rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 14px;
 }
 
 /* PageRoot (content body) */
