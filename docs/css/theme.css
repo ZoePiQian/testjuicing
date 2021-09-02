@@ -57,9 +57,9 @@ body {
   color: var(--color-text-default);
   fill: currentColor;
   font-family: 'Source Sans Pro';
-  margin: 2rem;
+  margin: 0;
   line-height: 1.5rem;
-  padding-bottom: 2rem
+  padding-bottom: 1rem
 }
 
 code {
@@ -69,8 +69,8 @@ code {
 }
 
 p {
-  margin: 5px;
-  padding-bottom: 2rem
+  margin-bottom: 1rem;
+  padding-bottom: 10rem
 }
 
 /* Anchor */
