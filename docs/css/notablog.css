@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   font-size: 19px;
+  font-family: 'Arial';
   font-style: bold;
   position: fixed;
   top: 0;
@@ -117,9 +118,9 @@
   margin-top: 2.5rem;
   margin-bottom: 0.25em;
   line-height: 1.2;
-  font-size: 2.625rem;
+  font-size: 2.725rem;
   font-weight: 700;
-  letter-spacing: -0.005em;
+  letter-spacing: 0.005em;
 }
 
 .Header > *:last-child {
@@ -130,6 +131,7 @@
   font-family:"Source Sans Pro";
   font-size: 1.2em;
   line-height: 0;
+  padding-bottom: 1em;
 }
 
 /* DateTagBar */
@@ -240,13 +242,13 @@
   font-size: 0.92rem;
   font-family: 'Source Sans Pro';
   line-height: 1.2rem;
-  padding-bottom: 20px;
+  padding-bottom: 0.5rem;
 }
 
 /* PageRoot (content body) */
 
 .PageRoot {
-  padding-bottom: 20px;
+  padding-bottom: 0;
   padding-top: 0;
 }
 
