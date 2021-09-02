@@ -56,7 +56,7 @@
 body {
   color: var(--color-text-default);
   fill: currentColor;
-  font-family: 'Source Sans Pro', 'heiti','Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans','Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Source Sans Pro';
   margin: 0;
   line-height: 1.5rem;
   padding-bottom: 22px;
@@ -69,7 +69,8 @@ code {
 }
 
 p {
- margin: 0;  
+ margin: 0; 
+ padding-bottom: 22px;
 }
 
 /* Anchor */
@@ -1033,6 +1034,7 @@ pre.Code code {
   letter-spacing: 0.05em;
   line-height: 1.6em;
   margin: 2px 0;
+  text-align: justify;
 }
 
 .Text__Children {

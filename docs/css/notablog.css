@@ -157,7 +157,7 @@
 
 .DateTagBar__Tag {
   color: hsla(45, 8%, 25%, 1);
-  font-size: 0.82rem;
+  font-size: 0.89rem;
   font-style: bold;
   font-weight: 600;
   white-space: nowrap;
@@ -240,7 +240,7 @@
   font-size: 0.92rem;
   font-family: 'Source Sans Pro';
   line-height: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
 }
 
 /* PageRoot (content body) */
