@@ -57,7 +57,7 @@ body {
   color: var(--color-text-default);
   fill: currentColor;
   font-family: 'Source Sans Pro';
-  margin: 0;
+  margin: 2rem;
   line-height: 1.5rem;
   padding-bottom: 2rem
 }
