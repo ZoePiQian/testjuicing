@@ -239,11 +239,11 @@
 }
 
 .Article__Desc {
-  font-size: 1.7rem;
+  font-size: 0.95rem;
   font-family:'Source Sans Pro';
   line-height: 1.2;
   padding-top: 0.5em;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
   margin-bottom: 1.25em;
 
 }
