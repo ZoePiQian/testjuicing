@@ -239,11 +239,13 @@
 }
 
 .Article__Desc {
-  font-size: 0.9rem;
+  font-size: 1.7rem;
   font-family:'Source Sans Pro';
   line-height: 1.2;
   padding-top: 0.5em;
   padding-bottom: 20px;
+  margin-bottom: 1.25em;
+
 }
 
 /* PageRoot (content body) */
