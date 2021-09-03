@@ -225,7 +225,7 @@
   font-size: 1.52rem;
   font-family:'Hiragino Sans GB','Source Sans Pro';
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
 }
 
 .Article__Title > a {
@@ -241,13 +241,13 @@
   font-size: 0.9rem;
   font-family:'Source Sans Pro';
   line-height: 1.2;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 /* PageRoot (content body) */
 
 .PageRoot {
-  padding-bottom: 0;
+  padding-bottom: 1em;
   padding-top: 0;
 }
 
