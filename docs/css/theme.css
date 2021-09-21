@@ -155,10 +155,11 @@ p {
 
 .Callout {
   display: flex;
-  border-radius: 5px;
-  padding: 16px 16px 16px 12px;
+  border-radius: 9px;
+  padding: 16px 16px 16px 16px;
   margin: 4px 0;
   background: var(--color-bg-gray-light);
+  box-shadow: 2px 2px 7px #dadada, -1px -1px 6px #ffffff !important;
 }
 
 .Callout__Icon {
