@@ -624,6 +624,7 @@ pre.Code code {
 
 .Heading--2 {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Heading--2 .SemanticString {
@@ -633,6 +634,7 @@ pre.Code code {
 
 .Heading--3 {
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .Heading--3 .SemanticString {
@@ -798,6 +800,7 @@ pre.Code code {
 .Pill {
   padding: 0 6px;
   border-radius: 3px;
+  border: 1px solid gray;
   white-space: nowrap;
   display: inline-block;
   /* margin of inline-block does not collapse */
