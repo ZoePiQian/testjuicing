@@ -2,14 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <!-- Chrome, Firefox OS and Opera Status Bar Color -->
-  <meta name="theme-color" content="#FFFFFF">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152513368-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152513368-1');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="https://img.icons8.com/ios/250/000000/vegetarian-food.png">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>Juicing Today</title>
+  <meta property="og:type" content="blog">
   <meta property="og:title" content="Juicing Today">
+  
     <meta name="description" content="
 Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3 篇深度文章或行业一手研究报告。
 
@@ -18,7 +45,7 @@ Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3
 → 点击这里，了解 Juicing 背后的故事。
 
 以下是过去 5 天我们为你精选的深度好文。">
-  <meta property="og:description" content="
+    <meta property="og:description" content="
 Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3 篇深度文章或行业一手研究报告。
 
 主理人团队会以「极其严格的标准」筛选信息源，并且会为推荐内容写独家评论和注释。
@@ -26,77 +53,227 @@ Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3
 → 点击这里，了解 Juicing 背后的故事。
 
 以下是过去 5 天我们为你精选的深度好文。">
-    <meta property="og:type" content="blog">
-  <title>Juicing Today</title>
-  <!-- Favicon -->
-    <link rel="shortcut icon" href="https://img.icons8.com/ios/250/000000/vegetarian-food.png">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
-  <link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
-  <link rel="stylesheet" type="text/css" href="css/theme.css">
-  <link rel="stylesheet" type="text/css" href="css/notablog.css">
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/96e2d0cc-be3b-49b2-be26-f12f357a1dd6/icon-57.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210924T171159Z&X-Amz-Expires=86400&X-Amz-Signature=ea5f67e7d08ec48a246ecfd5a10a6094a88a1a7b1f3f775b0a5ec8916a481154&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22icon-57.png%22">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4ebd15c7-b778-46f4-a2c9-22e61e50a1a2/icon-72.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210924T171318Z&X-Amz-Expires=86400&X-Amz-Signature=9994cc8aacc1ce09d2c0503bb43583996e2fc8c74577cf57fc62a4e1553fa464&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22icon-72.png%22">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a1f80002-c0c4-41c0-86fe-a0c3b69bffae/icon-114.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210924T171336Z&X-Amz-Expires=86400&X-Amz-Signature=4449acfccab89b328f4ee497df54dcb7c5b3f5057818e025b16b46fac4a8c4dc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22icon-114.png%22">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/17d7070a-e220-473e-be89-2d125b3cf74d/icon-144.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210924T171351Z&X-Amz-Expires=86400&X-Amz-Signature=3ffa84980ffee71408c51d9d1024b1424fef85fbbb8120230196b159afd15268&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22icon-144.png%22">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="white">
-  <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
-  <style>
-    :root {
-      font-size: 20px;
-      background: linear-gradient(to left, #f0f0f0, #ffffff);
-    }
-  </style>
+  
+  
+    <meta property="og:image" content="https://img.icons8.com/ios/250/000000/vegetarian-food.png">
+  
 </head>
 
 <body>
   <nav class="Navbar">
-    <a href="index.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/vegetarian-food.png"></span> <span>Home</span></div>
-    </a>
-                                                                                                                                                                                    <span class="Navbar__Delim">&centerdot;</span>
-    <a href="about.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/rocket.png"></span> <span>About us</span></div>
-    </a>
-                <span class="Navbar__Delim">&centerdot;</span>
-    <a href="rss.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"></span> <span>Subscribe</span></div>
-    </a>
-                        <span class="Navbar__Delim">&centerdot;</span>
-    <a href="love.html">
-      <div class="Navbar__Btn"><span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/lullaby.png"></span> <span>Love</span></div>
-    </a>
-                  </nav>
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/vegetarian-food.png"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/rocket.png"></span>&nbsp;
+          
+          <span>About us</span>
+        </div>
+      </a>
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="rss.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/mailbox-closed-flag-up.png"></span>&nbsp;
+          
+          <span>Subscribe</span>
+        </div>
+      </a>
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="love.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/lullaby.png"></span>&nbsp;
+          
+          <span>Love</span>
+        </div>
+      </a>
+    
+  
+    
+  
+</nav>
   <header class="Header">
-        <div class="Header__Cover">
-      <img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c15b27a-79b5-460c-8422-8cc28c4ead2b%2Frabbit.zoepi.online-16.png?table=collection&id=849b943b-d2e4-40fc-9416-0308a8de8e0e">
+    
+      <div class="Header__Cover">
+        <img src="https://www.notion.so/signed/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c15b27a-79b5-460c-8422-8cc28c4ead2b%2Frabbit.zoepi.online-16.png?table=collection&amp;id=849b943b-d2e4-40fc-9416-0308a8de8e0e">
+      </div>
+    
+    <div class="Header__Spacer ">
     </div>
-        <div class="Header__Spacer ">
-    </div>
-        <div class="Header__Icon"><span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/vegetarian-food.png"></span></div>
-        <h1 class="Header__Title">Juicing Today</h1>
-        <div class="Header__Desc">
-      <span class="Header__DescBigQuoteMark">&ldquo;</span>
-      <span class="SemanticStringArray"><span class="SemanticString">
+    
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/vegetarian-food.png"></span>
+      </div>
+    
+    <h1 class="Header__Title">Juicing Today</h1>
+    
+      <div class="Header__Desc">
+        <span class="Header__DescBigQuoteMark">&ldquo;</span>
+        <span class="SemanticStringArray"><span class="SemanticString">
 </span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorOrange">J</mark></strong></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorPink">u</mark></strong></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorGreen">i</mark></strong></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorPurple">c</mark></strong></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorBlue">i</mark></strong></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorRed">n</mark></strong></span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorPurple">g</mark></strong></span><span class="SemanticString"> Today 是一个「</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">线上杂志</strong></span><span class="SemanticString">」计划，每个工作日会推荐 </span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">2 - 3 </strong></span><span class="SemanticString">篇深度文章或行业一手研究报告。
 
 主理人团队会以「</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">极其严格的标准」</strong></span><span class="SemanticString">筛选信息源，并且会为推荐内容写</span><span class="SemanticString"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorBlue"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">独家评论</strong></mark></span><span class="SemanticString">和</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorGreen">注释</mark></strong></span><span class="SemanticString">。
 
 </span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorGreen"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="http://juicing.today/about.html">→ 点击这里</a></mark></strong></span><span class="SemanticString">，了解 Juicing 背后的故事。
 
-以下是过去 </span><span class="SemanticString"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorOrange"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">5 </strong></mark></span><span class="SemanticString">天我们为你精选的深度好文。</span></span>      <span class="Header__DescBigQuoteMark">&bdquo;</span>
-    </div>
-      </header>
+以下是过去 </span><span class="SemanticString"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorOrange"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">5 </strong></mark></span><span class="SemanticString">天我们为你精选的深度好文。</span></span>
+        <span class="Header__DescBigQuoteMark">&bdquo;</span>
+      </div>
+    
+  </header>
   <article class="ArticleList">
-                <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/bar-chart.png"></span>        <a href="2021092901.html">
-              教培行业的6个假设和3种结局            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">对标美日韩三国的案例，无论是教育政策紧缩还是政策放开任由市场化，都是治标不治本，上有政策，下有对策，家庭课外参培需求始终存在。
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/128/000000/external-time-sauna-flatart-icons-lineal-color-flatarticons.png"></span>
+      
+      <a href="2021101401.html">
+        Sam Altman：十年很短，一日很长
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">最早知道 Sam Altman 是因为看到 YC 的创始人 Paul Graham 的一句话：在给创业公司建议的时候，我提起来最多就是两个人：Steve Jobs 和 Sam Altman。当我遇到设计问题的时候，我会问自己：Steve Jobs 会怎么做？而遇到战略和野心问题的时候我想的是：Sam Altman 会怎么做？
+
+Paul 也曾在《写给学生们的创业指南》中提到：Sam 是一个很特立独行的人。我还记得当时见到他不到第三分钟，就在想：“啊，19岁的比尔盖茨估计也就这样了吧！”
+
+——以上，是别人眼中的 Sam。
+
+后来，Sam 在年仅 31 岁的时候成为了彼时硅谷权力中心 YC 的掌门人，但是很快、他就选择离开了 YC，把自己的工作重点转向非盈利性人工智能研究机构 OpenAI。
+
+今年 6 月 29 号，Sam 创立了区块链领域的公司 Worldcoin，他这样描述自己理想的未来世界：每个公民都会越来越多地享受到经济自决带来的自由、权力、自主权和机会，贫困将大大减少，更多的人将有机会过上他们想要的生活。
+
+跨越了 YC（创业）、OpenAI（人工智能）、Worldcoin（加密货币）三个不同领域的 Sam 究竟是怎样神奇的存在呢？
+
+不如，来看看他自己怎么说。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Thu, Oct 14, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/硅谷圈.html">硅谷圈</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/个人成长.html">个人成长</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/Sam Altman.html">Sam Altman</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/128/000000/external-advertising-advertising-flatart-icons-lineal-color-flatarticons.png"></span>
+      
+      <a href="zwj.html">
+        成为张无忌
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">作者文笔太好，看的太透，却说的刚好。江湖从来不只是黑暗森林的剑快刀沉，还有隐形的道义法则。那些无处不在的同类的眼神的确认，才是决定你运气的基础。
+
+张无忌的心性决定了他一生风口，猴子都会帮他。短线和局部看，仁者会输给套路，但长线和总体看，仁者大概率开挂。
+
+神功练就，初志不改。身怀利刃，杀心不起。终须你自己去体会。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Sun, Oct 10, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/个人成长.html">个人成长</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/cotton/128/000000/abc.png"></span>
+      
+      <a href="2021092901.html">
+        教培行业的 6 个假设和 3 种结局
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">对标美日韩三国的案例，无论是教育政策紧缩还是政策放开任由市场化，都是治标不治本，上有政策，下有对策，家庭课外参培需求始终存在。
 
 文中总结的很好，“教培行业的困境，从来就不是人民日益增长的对优质教育资源的需求和优质教育资源不足的矛盾，而是人民都想要成为教育竞争的胜利者和竞争选拔机会有限的矛盾。”
 
@@ -108,99 +285,115 @@ Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3
 
 “张华考上了北京大学，李萍进了中等技术学校，我在百货公司当售货员，我们都有光明的前途。”
 
-只有当“一定要上名校”的问题意义被消解，才能从根本上改变整个教育环境。纵使教培行业退出历史舞台，也是整个社会发展的一大步。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 29, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="tag/策展人: 施言.html">策展人: 施言</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/商业内观.html">商业内观</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/教育.html">教育</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/ledger.png"></span>        <a href="2021092902.html">
-              对话今日头条天使投资人刘峻：多数上市公司其实都来自中小市            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">三年前的旧文，刘峻多次提自己是“反向操作”“逆向投资”，偏好投冷门的项目，说自己在风投领域是业余，不会建财务模型，也看不明白英文协议，但是他成了今日头条最早的天使投资人。
+只有当“一定要上名校”的问题意义被消解，才能从根本上改变整个教育环境。纵使教培行业退出历史舞台，也是整个社会发展的一大步。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 29, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
+          <a href="tag/策展人: 施言.html">策展人: 施言</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/商业内观.html">商业内观</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/教育.html">教育</a>
+        </span>
+      
+    </div>
+  </article>
 
-今天我们都说移动互联网红利见顶，回到10年前，移动互联网初兴之际，通过刘峻本人的复盘，来感受“伟大的投资都是建立在反共识的基础上”。不管是投资决策，还是人生其他决策，相信都会从中获益。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 29, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="tag/策展人: 施言.html">策展人: 施言</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/商业内观.html">商业内观</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/字节跳动.html">字节跳动</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/投资思维.html">投资思维</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/full-moon.png"></span>        <a href="2021092903.html">
-              解读《波若波罗蜜多心经》            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">我的左手常年佩戴一个银环，上面刻的就是心经。心绪不宁时，常常凝视银环上的字，然后对自己说：诸法空相。
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/cotton/128/000000/yin-yang.png"></span>
+      
+      <a href="2021092903.html">
+        解读《波若波罗蜜多心经》
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">我的左手常年佩戴一个银环，上面刻的就是心经。心绪不宁时，常常凝视银环上的字，然后对自己说：诸法空相。
 
 《心经》的全称《般若波罗蜜多心经》，是大乘佛教中空和般若思想的经典，也是一部文字最短少，却诠理最深奥微妙的经典，弘一法师评价说：《心经》虽仅二百余字，但摄全部佛法。
 
 银河子的这篇《解读心经》解的非常之究竟。之前我一直困惑到底什么是「观自在菩萨」，银河子把它解释为：「</span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">往上可以连接上自己的天线、可以感受到自己的佛性、可以体会得到本源的圆满；往下，可以在这个物质世界中游刃有余。</strong></span><span class="SemanticString">」
 
-时时刻刻去关照自己内心的觉，观照自己内心的圆满，在这个物质世界中生活时时刻刻感觉到很愉快、很通透、很顺畅，然后你的心灵可以时时刻刻地保持“觉”，什么觉？就是绝对地松（放松）、满（满足）、爱（喜爱）的觉。所以，可以时时刻刻感受到心灵上的圆满，又可以在这个物质世界中游刃有余，即为“观自在菩萨”。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 29, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/佛学.html">佛学</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/wallet.png"></span>        <a href="2021092801.html">
-              Ben Horowitz：公司高管是没法培养的            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">除了这篇文章本身，还想推荐大家去读导语里提到的知乎周源写的回答：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.zhihu.com/question/29456168/answer/44896642">如何在团队空降牛人</a></span><span class="SemanticString">。
+时时刻刻去关照自己内心的觉，观照自己内心的圆满，在这个物质世界中生活时时刻刻感觉到很愉快、很通透、很顺畅，然后你的心灵可以时时刻刻地保持“觉”，什么觉？就是绝对地松（放松）、满（满足）、爱（喜爱）的觉。所以，可以时时刻刻感受到心灵上的圆满，又可以在这个物质世界中游刃有余，即为“观自在菩萨”。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 29, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/佛学.html">佛学</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/wallet.png"></span>
+      
+      <a href="2021092801.html">
+        Ben Horowitz：公司高管是没法培养的
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">除了这篇文章本身，还想推荐大家去读导语里提到的知乎周源写的回答：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.zhihu.com/question/29456168/answer/44896642">如何在团队空降牛人</a></span><span class="SemanticString">。
 
 牛人应该为解决实际问题来，不是为了头衔而来。让他降落在一个弹坑里，而不是高地上。避免黄金降落伞，上来就给了对团队造成冲击的头衔，往往不便于开展工作，被架在高地上，大家都会盯着他，过度关注造成动作变形。
 
-地势低，不在大家视线内，给他足够难度的问题去解决，通过令人信服的业务能力让大家去认识他，这样爬出来不仅不狼狈，反而容易获得他人信任。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 28, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/硅谷圈.html">硅谷圈</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/Ben Horowitz.html">Ben Horowitz</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/law.png"></span>        <a href="2021092802.html">
-              什么是“社会性死亡”            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">几年前因为求学和北大社会学系刘能教授有些渊源交流。刘老师这篇GQ采访，从“社会性死亡”这一社交媒体现象出发，延伸了“社会互动”这一社会性核心议题的诸多思想，很多见解也是值得深思的。
+地势低，不在大家视线内，给他足够难度的问题去解决，通过令人信服的业务能力让大家去认识他，这样爬出来不仅不狼狈，反而容易获得他人信任。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 28, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/硅谷圈.html">硅谷圈</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/Ben Horowitz.html">Ben Horowitz</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/cotton/128/000000/social-distance--v6.png"></span>
+      
+      <a href="2021092802.html">
+        什么是「社会性死亡」
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">几年前因为求学和北大社会学系刘能教授有些渊源交流。刘老师这篇GQ采访，从“社会性死亡”这一社交媒体现象出发，延伸了“社会互动”这一社会性核心议题的诸多思想，很多见解也是值得深思的。
 
 一、概念定义的演变
 
@@ -217,27 +410,41 @@ Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3
 （3）网络暴力本质是在现实无法获得成就感而在虚拟空间寻求话语权表达，追求短期快感，而放弃长期社会化培育，因此互联网公共讨论和文化共识更加难以实现。
 （4）社会性死亡和网络暴力的边界在于，其所保护的是不是根深蒂固的文化价值观，根深蒂固不一定是主流/最多数的。
 （5）文化价值观的评价受代际、阶层、圈层的差异而变化，要回到文化所嵌入的时空环境来寻找正当性的依据（比如老一辈996觉得是为集体事业做贡献，年轻人996可能意味着强制性、不平等的交换）。
-（6）“社会性死亡”等网络梗的流行，是通过造词来获得认知上的支持与群体认同感，造词本身不是行使暴力的权力，而是社会性的文化权力，也是文化创新的激励。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 28, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="tag/策展人: 施言.html">策展人: 施言</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/社会学.html">社会学</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/社交媒体.html">社交媒体</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/businessman.png"></span>        <a href="2021092803.html">
-              项飙的三个问题            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">项飙老师提到三个问题：系统的概念、系统与劳动的关系、系统和使用者的关系。
+（6）“社会性死亡”等网络梗的流行，是通过造词来获得认知上的支持与群体认同感，造词本身不是行使暴力的权力，而是社会性的文化权力，也是文化创新的激励。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 28, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
+          <a href="tag/策展人: 施言.html">策展人: 施言</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/社会学.html">社会学</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/社交媒体.html">社交媒体</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/120/000000/external-question-online-learning-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"></span>
+      
+      <a href="2021092803.html">
+        项飙的三个问题
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">项飙老师提到三个问题：系统的概念、系统与劳动的关系、系统和使用者的关系。
 
 问题一，对比社会学概念的“系统”（尤其是德国社会学家哈贝马斯的“生活世界”、“系统”思想）与互联网语境下的“系统”：
 
@@ -257,222 +464,192 @@ Juicing Today 是一个「线上杂志」计划，每个工作日会推荐 2 - 3
 
 （2）个体在经济理性层面的慵懒很难带来综合的社会福祉，而且与维系庞大系统运营所需的资源投入（互联网/骑手/商家）远远不成比例。
 
-ps：项老师也强调自己是学者视角，对于一些问题的认知和理解也需要互联网商业层面的输入。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 28, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="tag/策展人: 施言.html">策展人: 施言</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/社会学.html">社会学</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/自我认知.html">自我认知</a>
-          </span>
-                  </div>
-    </article>
-                                  <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/diploma.png"></span>        <a href="2021092702.html">
-              Ben Horowitz：a16z 如何评价一个 CEO            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">之前读 Jim Collins 的书，看到了一个「报时人」和「造钟者」的隐喻，它让我想明白了为什么越是优秀的「领导力」越要将关注并帮助他人的成长为己任。
+ps：项老师也强调自己是学者视角，对于一些问题的认知和理解也需要互联网商业层面的输入。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Sep 28, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
+          <a href="tag/策展人: 施言.html">策展人: 施言</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/社会学.html">社会学</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/自我认知.html">自我认知</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/external-justicon-lineal-color-justicon/128/000000/external-start-up-light-bulbs-justicon-lineal-color-justicon.png"></span>
+      
+      <a href="2021092701.html">
+        Sam Altman：关于早期创业，你需要知道的几乎所有事
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">最近我把《从 0 到 1 》和《创业维艰》又翻出来看了。
+
+尤其是《创业维艰》真的非常精彩，推荐每一位对商业感兴趣的朋友都去读一读。大多数创业书所说的都是如何做正确的事，不把事情搞砸，而本·霍洛维茨还会告诉你：当事情已经搞砸时，你该怎么办。
+
+用系统去赋能效率、如何维持一个熵降的社区、如何快速的掌握一门陌生的技术、如何做好一款产品而去除我的「妄想、分别、我执」、如何和用户良性的互动、如何高效的获取用户反馈、如何在适当的时候投入资金——今天你打开的 </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="http://juicing.today">juicing.today</a></span><span class="SemanticString"> 其实都经历了这个过程，但我不愿意将它称之为创业，我想把它称之为「have fun journey」。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Sep 27, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/Sam Altman.html">Sam Altman</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/硅谷圈.html">硅谷圈</a>
+        </span>
+      
+    </div>
+  </article>
+
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/cotton/128/000000/morning-news--v1.png"></span>
+      
+      <a href="2021092702.html">
+        Ben Horowitz：a16z 如何评价一个 CEO
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">之前读 Jim Collins 的书，看到了一个「报时人」和「造钟者」的隐喻，它让我想明白了为什么越是优秀的「领导力」越要将关注并帮助他人的成长为己任。
+
 依赖单一的伟大构想就是「报时」，有点类似于「1 个天才加 1000 个助手」，这种只依靠个人魅力进行领导团队的做法，极大的依赖个体智慧和人格魅力。
+
 而建立一个可以产生许多伟大想法的组织就是在“造钟”，它是在塑造一种不依赖于任何个人领导就能让组织持续蓬勃发展的管理方式。
 当组织在「造钟者」的安排下有序地向前迈进，所有成员可能都感觉不到它的存在，于是没有人会将注意力放在领导者的喜好上，甚至「不知有之」。但正是依靠它为组织创造出的操作系统，组织才得以正常并高效地运转，组织里的个体会被更好的滋养心智和渴望成长。
+
 《一代宗师》的编剧徐浩峰老师曾说过一句话很符合我对「造钟者」的理解——这世界上永远有两种人：一种如荒火，停留处寸草不生，自衰衰人，自毁毁他。一种如瑞兽，所过之处，水滋土肥，鸟语花香。CEO 应该是后者。
-juicing.today 的读者群体里如果有正在做 CEO 的朋友，不如看看 Ben 怎么说吧。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Sep 27, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/硅谷圈.html">硅谷圈</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/Ben Horowitz.html">Ben Horowitz</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/dashboard.png"></span>        <a href="2021092601.html">
-              Sam Altman：十年很短，一日很长            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">最早知道 Sam Altman 是因为看到 YC 的创始人 Paul Graham 的一句话：在给创业公司建议的时候，我提起来最多就是两个人：Steve Jobs 和 Sam Altman。当我遇到设计问题的时候，我会问自己：Steve Jobs 会怎么做？而遇到战略和野心问题的时候我想的是：Sam Altman 会怎么做？
 
-Paul 也曾在《写给学生们的创业指南》中提到：Sam 是一个很特立独行的人。我还记得当时见到他不到第三分钟，就在想：“啊，19岁的比尔盖茨估计也就这样了吧！”
+juicing.today 的读者群体里如果有正在做 CEO 的朋友，不如看看 Ben 怎么说吧。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Sep 27, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/硅谷圈.html">硅谷圈</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/Ben Horowitz.html">Ben Horowitz</a>
+        </span>
+      
+    </div>
+  </article>
 
-——以上，是别人眼中的 Sam。
-
-后来，Sam 在年仅 31 岁的时候成为了彼时硅谷权力中心 YC 的掌门人，但是很快、他就选择离开了 YC，把自己的工作重点转向非盈利性人工智能研究机构 OpenAI。
-
-今年 6 月 29 号，Sam 创立了区块链领域的公司 Worldcoin，他这样描述自己理想的未来世界：每个公民都会越来越多地享受到经济自决带来的自由、权力、自主权和机会，贫困将大大减少，更多的人将有机会过上他们想要的生活。
-
-跨越了 YC（创业）、OpenAI（人工智能）、Worldcoin（加密货币）三个不同领域的 Sam 究竟是怎样神奇的存在呢？
-
-不如，来看看他自己怎么说。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Sun, Sep 26, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/硅谷圈.html">硅谷圈</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/个人成长.html">个人成长</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/Sam Altman.html">Sam Altman</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/meeting-room.png"></span>        <a href="2021092602.html">
-              淘宝宣战拼多多的前夜：吕晋杰、陈琪、徐易容和葛永昌的至暗时刻            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">一篇关于电商战争的长文，有一万多字。
-
-拼多多这几年快速崛起，成为阿里巴巴的强力对手。而在拼多多崛起之前的故事，也是很有意思的。
-
-楚楚街是主打9块9包邮的鼻祖，其实最早涉足综艺节目广告投放的产品，并利用其中的红利快速做大，但他们自身的产品并不能满足快速增长的用户，从而最终走向了失败。而在当时还是拼好货CEO的黄铮曾多次拜访楚楚街进行学习与交流。此后，我们在拼多多上看到9块9包邮，在电视台密集投放，解决货品与客户需求匹配的问题，显然，是学习了楚楚街，从而避免了重蹈覆辙的事情。
-
-看完你能深刻理解到商业是残酷，成功经常建立在别人的失败经验之上。而阿里巴巴战略的失败(打击淘客)，腾讯的扶持，也让拼多多走得远了很多。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Sun, Sep 26, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--brown">
-            <a href="tag/策展人: Zac.html">策展人: Zac</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/商业内观.html">商业内观</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/sun.png"></span>        <a href="2021092501.html">
-              京东红太阳            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">之前看潘乱老师提到这篇18年旧文，说行业里再难见到这种“老道消息类”文体。
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/external-tulpahn-outline-color-tulpahn/128/000000/external-sun-sun-and-moon-tulpahn-outline-color-tulpahn-1.png"></span>
+      
+      <a href="2021092501.html">
+        京东红太阳
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">之前看潘乱老师提到这篇18年旧文，说行业里再难见到这种“老道消息类”文体。
 
 拜读完确实写得好，文本上故事性、理论性、商业性俱佳，底层能力是对于信息素材的糅合应用，对于学术理论的融会贯通，对于表达方式的琢磨凝练。
 
 写刘强东其人，写京东这家公司，作者是用了很多社会学理论来解释老刘为人处事的世界观和他在企业经营管理的商业实践，落在京东的内部组织变革，最后又反映到宏观商业格局中京东的态势变迁。
 
-自下而上四层架构，但又交织融合在一起。一气呵成，看得舒畅过瘾。加上文本表达详略得当，开头的场景特写、中间的回忆片段闪回、结尾描写又致敬了《百年孤独》那个经典的开头，如评论所说“像看了一部电影”。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Sat, Sep 25, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
-            <a href="tag/策展人: 施言.html">策展人: 施言</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/企业家.html">企业家</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/商业内观.html">商业内观</a>
-          </span>
-                  </div>
-    </article>
-                                  <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/classroom.png"></span>        <a href="2021092201.html">
-              打造产品社群            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">「五道口产品社群」是一个清华大学学生打造的产品社群，这篇文章是发起人 shixian 在毕业前对这两年经历的回顾。从最初产生想法，到发起临时研讨，再到找到热爱产品的人形成稳定的社群，这段经历正如打造一款产品一样，充满不确定性但又激动人心。
+自下而上四层架构，但又交织融合在一起。一气呵成，看得舒畅过瘾。加上文本表达详略得当，开头的场景特写、中间的回忆片段闪回、结尾描写又致敬了《百年孤独》那个经典的开头，如评论所说“像看了一部电影”。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Sat, Sep 25, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--blue">
+          <a href="tag/策展人: 施言.html">策展人: 施言</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/企业家.html">企业家</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/商业内观.html">商业内观</a>
+        </span>
+      
+    </div>
+  </article>
 
-这是一篇非常真诚的文章，充满热爱的力量。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 22, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--green">
-            <a href="tag/策展人：11.html">策展人：11</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/产品观察.html">产品观察</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/个人成长.html">个人成长</a>
-          </span>
-                  </div>
-    </article>
-                                              <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/house-with-a-garden.png"></span>        <a href="gift.html">
-              好心仙子            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">这是我去年读到过的最触动的一篇童话故事。如果你可以读懂的话，我想抱抱你。
+  <article class="Article">
+    <h3 class="Article__Title">
+      
+        <span><img class="inline-img-icon" src="https://img.icons8.com/cotton/128/000000/morning-news--v1.png"></span>
+      
+      <a href="positivepsy.html">
+        积极心理学
+      </a>
+    </h3>
+    
+      <p class="Article__Desc">
+        <span class="SemanticStringArray"><span class="SemanticString">你最能影响「他者」的，不是说辞和PPT，而是你正在工作的状态。对于追随者来说，那是无法拒绝的。</span></span>
+      </p>
+    
+    <div class="DateTagBar">
+      
+        <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Aug 30, 2021</span>
+      
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
+          <a href="tag/策展人：派派.html">策展人：派派</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/领导力.html">领导力</a>
+        </span>
+      
+        <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+          <a href="tag/职业成长.html">职业成长</a>
+        </span>
+      
+    </div>
+  </article>
 
-故事源自心理咨询师 Tara Brach 的一位来访者 Rosalie，由 Jan Mullen 改写。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Thu, Sep 2, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/心理咨询.html">心理咨询</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/个人成长.html">个人成长</a>
-          </span>
-                  </div>
-    </article>
-                      <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/gift.png"></span>        <a href="zwj.html">
-              成为张无忌            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">作者文笔太好，看的太透，却说的刚好。江湖从来不只是黑暗森林的剑快刀沉，还有隐形的道义法则。那些无处不在的同类的眼神的确认，才是决定你运气的基础。
-
-张无忌的心性决定了他一生风口，猴子都会帮他。短线和局部看，仁者会输给套路，但长线和总体看，仁者大概率开挂。
-
-神功练就，初志不改。身怀利刃，杀心不起。终须你自己去体会。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Sep 1, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/个人成长.html">个人成长</a>
-          </span>
-                  </div>
-    </article>
-                                  <article class="Article">
-      <h3 class="Article__Title">
-            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/conference-background-selected.png"></span>        <a href="positivepsy.html">
-              积极心理学            </a>
-          </h3>
-            <p class="Article__Desc">
-          <span class="SemanticStringArray"><span class="SemanticString">你最能影响「他者」的，不是说辞和PPT，而是你正在工作的状态。对于追随者来说，那是无法拒绝的。</span></span>      </p>
-            <div class="DateTagBar">
-                  <span class="DateTagBar__Item DateTagBar__Date">Posted on Mon, Aug 30, 2021</span>
-                            <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--purple">
-            <a href="tag/策展人：派派.html">策展人：派派</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/领导力.html">领导力</a>
-          </span>
-                  <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
-            <a href="tag/职业成长.html">职业成长</a>
-          </span>
-                  </div>
-    </article>
-                                                                                                  </article>
+</article>
   <footer class="Footer">
-        <div>&copy; Juicing Today 2021</div>
-        <div>&centerdot;</div>
-        <div>Powered by <a href="https://why.zoepi.online" target="_blank"
-            rel="noopener noreferrer">商业内观</a>.
-        </div>
-    </footer>
+  <div>&copy; Juicing Today 2019-2021</div>
+  <div>&centerdot;</div>
+  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
+      rel="noopener noreferrer">Notablog</a>.
+  </div>
+</footer>
 </body>
 
 </html>
