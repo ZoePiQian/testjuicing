@@ -149,6 +149,7 @@ p {
   margin: 2px 0;
   padding-top: 3px;
   padding-bottom: 3px;
+  font-size: 0.85em;
 }
 
 /* Callout */
@@ -731,6 +732,7 @@ pre.Code code {
   margin: 2px 0;
   padding-top: 3px;
   padding-bottom: 3px;
+  font-size:0.85em;
 }
 
 /* Page */
@@ -1038,8 +1040,8 @@ pre.Code code {
   font-family: 'Source Han Sans CN','Source Sans Pro', -apple-system, 'BlinkMacSystemFont',
   'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif,
   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 300;
-  font-size: 1em;
+  font-weight: 330;
+  font-size: 0.85em;
 }
 
 .Text__Children {
