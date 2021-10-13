@@ -56,10 +56,14 @@
 body {
   color: var(--color-text-default);
   fill: currentColor;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Han Sans CN','Source Sans Pro', -apple-system, 'BlinkMacSystemFont',
+  'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   margin: 0;
   line-height: 1.5rem;
-  padding-bottom: 22px;
+  font-size: 0.9em;
+  font-weight: 370;
+  padding-bottom: 18px;
 }
 
 code {
@@ -149,6 +153,8 @@ p {
   margin: 2px 0;
   padding-top: 3px;
   padding-bottom: 3px;
+  font-size: 0.85em;
+  font-weight: 330;
 }
 
 /* Callout */
@@ -159,6 +165,8 @@ p {
   padding: 16px 16px 16px 12px;
   margin: 4px 0;
   background: var(--color-bg-gray-light);
+  font-size: 0.85em;
+  font-weight: 330;
 }
 
 .Callout__Icon {
@@ -731,6 +739,7 @@ pre.Code code {
   margin: 2px 0;
   padding-top: 3px;
   padding-bottom: 3px;
+  font-size:0.85em;
 }
 
 /* Page */
@@ -852,7 +861,7 @@ pre.Code code {
   border-radius: 5px;
   margin: 0.5rem 0;
   padding: 0.5em 1.2em;
-  font-size: 1em;
+  font-size: 0.85em;
 }
 
 /* SemanticStringArray */
@@ -1030,7 +1039,7 @@ pre.Code code {
 
 .Text__Content {
   padding-bottom: 1.1em;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   word-spacing: 0;
   line-height: 1.6em;
   margin: 4px 0;
@@ -1038,8 +1047,8 @@ pre.Code code {
   font-family: 'Source Han Sans CN','Source Sans Pro', -apple-system, 'BlinkMacSystemFont',
   'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif,
   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 300;
-  font-size: 1em;
+  font-weight: 330;
+  font-size: 0.85em;
 }
 
 .Text__Children {
