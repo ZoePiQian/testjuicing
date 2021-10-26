@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152513368-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152513368-1');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>工程化你的习惯&nbsp;|&nbsp;Test Pilot | Juicing Today</title>
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="工程化你的习惯">
+  
+    <meta name="description" content="fonter这篇文章为普通人如何向前辈学习给出了一个好范式——如果你羡慕一个人的生活方式，就去观察他、模仿他的习惯，大概率能吸取一些好经验。
+
+fonter观察了三位多产而平衡的前辈：本杰明·富兰克林的“树立目标-关键行动-复盘”法、Ali Yahya的A Life Operating System、Henrik Werdelin的8+1 system；并公布了自己的实践。
+
+我的感受是：尽管人是有情绪的个体，我们仍然能用相对量化、工程化的工具去更好地管理自己；同时，让人生良好有序运转的原则可能是极其简单、有限的，坚持做好它们就能带来长期复利。让我们一起坚持长期主义🙌">
+    <meta property="og:description" content="fonter这篇文章为普通人如何向前辈学习给出了一个好范式——如果你羡慕一个人的生活方式，就去观察他、模仿他的习惯，大概率能吸取一些好经验。
+
+fonter观察了三位多产而平衡的前辈：本杰明·富兰克林的“树立目标-关键行动-复盘”法、Ali Yahya的A Life Operating System、Henrik Werdelin的8+1 system；并公布了自己的实践。
+
+我的感受是：尽管人是有情绪的个体，我们仍然能用相对量化、工程化的工具去更好地管理自己；同时，让人生良好有序运转的原则可能是极其简单、有限的，坚持做好它们就能带来长期复利。让我们一起坚持长期主义🙌">
+  
+  
+    <meta property="og:image" content="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🚵‍♀️&lt;/text&gt;&lt;/svg&gt;">
+  
+  <style>
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/rocket.png"></span>&nbsp;
+          
+          <span>About</span>
+        </div>
+      </a>
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="apply.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/light-on.png"></span>&nbsp;
+          
+          <span>Join us</span>
+        </div>
+      </a>
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="love.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="https://img.icons8.com/ios/250/000000/lullaby.png"></span>&nbsp;
+          
+          <span>Love</span>
+        </div>
+      </a>
+    
+  
+    
+  
+    
+  
+</nav>
+  <header class="Header">
+    
+    <div class="Header__Spacer Header__Spacer--NoCover">
+    </div>
+    
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🚵‍♀️&lt;/text&gt;&lt;/svg&gt;"></span>
+      </div>
+    
+    <h1 class="Header__Title">工程化你的习惯</h1>
+    
+      <div class="DateTagBar">
+        
+          <span class="DateTagBar__Item DateTagBar__Date">Posted on Tue, Oct 26, 2021</span>
+        
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--orange">
+            <a href="tag/策展人：梦妮.html">策展人：梦妮</a>
+          </span>
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--default">
+            <a href="tag/个人成长.html">个人成长</a>
+          </span>
+        
+      </div>
+    
+  </header>
+  <article id="https://www.notion.so/38b08087cb744139a9ccc88fc7b4eb22" class="PageRoot"><div id="https://www.notion.so/54283ae623f44fb29e1575511e649193" class="ColorfulBlock ColorfulBlock--BgGray Callout"><div class="Callout__Icon"><div class="Icon">💡</div></div><p class="Callout__Content"><span class="SemanticStringArray"><span class="SemanticString">文章来源：公众号「耳聽」
+文章链接：</span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://mp.weixin.qq.com/s/B1RZokLQRqiki2Iqq4Mpdg">https://mp.weixin.qq.com/s/B1RZokLQRqiki2Iqq4Mpdg</a></span></span></p></div><div id="https://www.notion.so/822c89708f914f349b88d912fd6a9028" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></article>
+  <footer class="Footer">
+  <div> <a href="https://mp.weixin.qq.com/s?__biz=MzUxMjY3NzY0Ng==&mid=2247484878&idx=1&sn=31fea6e0d5f8a497c8be2105d20e76bf&chksm=f96187afce160eb98792d3b717cd2619aaeba902b55a8f8a61f2108d8fe3886d3a6f13a4ff4d&token=440575279&lang=zh_CN#rd" target="_blank"
+  rel="noopener noreferrer">订阅 Juicing.Today</a><br/>
+  <div>Powered by <a href="https://why.zoepi.online" target="_blank"
+      rel="noopener noreferrer">商业内观</a><br/>
+  </div>
+</footer>
+</body>
+
+</html>
